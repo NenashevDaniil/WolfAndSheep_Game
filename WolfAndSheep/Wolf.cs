@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 
 namespace WolfAndSheep
 {
-    class Sheep
+    internal class Wolf
     {
-        // Поля класса
         private int _health;
 
-        public int XS { get; set; }
-        public int YS { get; set; }
-
-        public int Hunger { get; private set; }
         public char Sprite { get; }
         public int Health
         {
@@ -24,28 +19,19 @@ namespace WolfAndSheep
             }
             set
             {
-                if (value < 0)
-                    _health = 0;
-                else if (value > 100)
-                    _health = 100;
-                else
-                    _health = value;
-            } 
-        }   
+                _health = value;
+            }
 
-        public Sheep(int x, int y, int health, int hunger)
-        {
-            XS = x;
-            YS = y;
-            _health = health;
-            //Hunger = hunger;
-            Sprite = 'S';
-            Hunger = hunger;
         }
+        public int XW { get; set; }
+        public int YW { get; set; }
 
-        public void Eat(int foodMass)
+        public Wolf(int health, int xW, int yW)
         {
-            Hunger -= foodMass;
+            XW = xW;
+            YW = yW;
+            _health = health;
+            Sprite = 'W';
         }
 
         public void Update()
@@ -57,13 +43,13 @@ namespace WolfAndSheep
         private void Move(int direction)
         {
             if (direction == 1)
-                XS += 1;
+                XW += 1;
             else if (direction == 2)
-                YS += 1;
+                YW += 1;
             else if (direction == 3)
-                XS -= 1;
+                XW -= 1;
             else if (direction == 4)
-                YS -= 1;
+                YW -= 1;
         }
 
         public void GetPos(out int x, out int y, char[,] map)
@@ -72,7 +58,7 @@ namespace WolfAndSheep
             while (work)
             {
 
-                if (XS >= 0 & YS >= 0 && XS < map.GetLength(0) & YS < map.GetLength(1))
+                if (XW >= 0 & YW >= 0 && XW < map.GetLength(0) & YW < map.GetLength(1))
                 {
                     work = false;
                 }
@@ -81,11 +67,9 @@ namespace WolfAndSheep
                     Move(Program.rnd.Next(0, 5));
                 }
             }
-            x = XS;
-            y = YS;
+            x = XW;
+            y = YW;
         }
     }
 }
 
-    
-   

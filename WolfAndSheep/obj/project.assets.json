@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nenas\\source\\repos\\WolfAndSheep\\WolfAndSheep\\WolfAndSheep.csproj",
+      "projectUniqueName": "C:\\Users\\nenas\\OneDrive\\Рабочий стол\\Repos\\WolfAndSheep\\WolfAndSheep_Game\\WolfAndSheep\\WolfAndSheep.csproj",
       "projectName": "WolfAndSheep",
-      "projectPath": "C:\\Users\\nenas\\source\\repos\\WolfAndSheep\\WolfAndSheep\\WolfAndSheep.csproj",
+      "projectPath": "C:\\Users\\nenas\\OneDrive\\Рабочий стол\\Repos\\WolfAndSheep\\WolfAndSheep_Game\\WolfAndSheep\\WolfAndSheep.csproj",
       "packagesPath": "C:\\Users\\nenas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nenas\\source\\repos\\WolfAndSheep\\WolfAndSheep\\obj\\",
+      "outputPath": "C:\\Users\\nenas\\OneDrive\\Рабочий стол\\Repos\\WolfAndSheep\\WolfAndSheep_Game\\WolfAndSheep\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nenas\\AppData\\Roaming\\NuGet\\NuGet.Config",

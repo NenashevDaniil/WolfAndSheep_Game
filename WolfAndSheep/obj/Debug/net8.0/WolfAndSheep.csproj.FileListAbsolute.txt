@@ -12,3 +12,18 @@ C:\Users\nenas\source\repos\WolfAndSheep\WolfAndSheep\obj\Debug\net8.0\refint\Wo
 C:\Users\nenas\source\repos\WolfAndSheep\WolfAndSheep\obj\Debug\net8.0\WolfAndSheep.pdb
 C:\Users\nenas\source\repos\WolfAndSheep\WolfAndSheep\obj\Debug\net8.0\WolfAndSheep.genruntimeconfig.cache
 C:\Users\nenas\source\repos\WolfAndSheep\WolfAndSheep\obj\Debug\net8.0\ref\WolfAndSheep.dll
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\bin\Debug\net8.0\WolfAndSheep.exe
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\bin\Debug\net8.0\WolfAndSheep.deps.json
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\bin\Debug\net8.0\WolfAndSheep.runtimeconfig.json
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\bin\Debug\net8.0\WolfAndSheep.dll
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\bin\Debug\net8.0\WolfAndSheep.pdb
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\obj\Debug\net8.0\WolfAndSheep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\obj\Debug\net8.0\WolfAndSheep.AssemblyInfoInputs.cache
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\obj\Debug\net8.0\WolfAndSheep.AssemblyInfo.cs
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\obj\Debug\net8.0\WolfAndSheep.csproj.CoreCompileInputs.cache
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\obj\Debug\net8.0\WolfAndSheep.sourcelink.json
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\obj\Debug\net8.0\WolfAndSheep.dll
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\obj\Debug\net8.0\refint\WolfAndSheep.dll
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\obj\Debug\net8.0\WolfAndSheep.pdb
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\obj\Debug\net8.0\WolfAndSheep.genruntimeconfig.cache
+C:\Users\nenas\OneDrive\Рабочий стол\Repos\WolfAndSheep\WolfAndSheep_Game\WolfAndSheep\obj\Debug\net8.0\ref\WolfAndSheep.dll
