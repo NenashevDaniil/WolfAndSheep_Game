@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WolfAndSheep")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d9837d8d8aab255597d106502416f043919ad3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21a5e369527fd7f4758425bdd808c561cdeaf65e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WolfAndSheep")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WolfAndSheep")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

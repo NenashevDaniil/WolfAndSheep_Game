@@ -15,17 +15,17 @@ namespace WolfAndSheep
                     map[x, y] = '-';
                 }
             Wolf wolf = new Wolf(100, 9, 9);
-            Sheep[] sheep = new Sheep[4];
-            for (int i = 0; i < sheep.Length; i++)
+            List <Sheep> sheep = new List<Sheep>(); 
+            for (int i = 0; i < 4; i++)
             {
                 int xS = rnd.Next(0, map.GetLength(0));
                 int yS = rnd.Next(0, map.GetLength(1));
-                sheep[i] = new Sheep(xS, yS, 100, 0);
+                sheep.Add(new Sheep(xS, yS, 100, 0));
             }
             GetStartedGrass(map, rnd.Next(0, 5));
             while (true)
             {
-                for (int i = 0; i < sheep.Length; i++)
+                for (int i = 0; i < sheep.Count; i++)
                 {
                     sheep[i].GetPos(out int xS, out int yS, map);
                     map[xS, yS] = '-';
@@ -52,7 +52,23 @@ namespace WolfAndSheep
             {
                 for (int y = 0; y < map.GetLength(1); y++)
                 {
+                    switch (map[x,y])
+                    {
+                        case 'v':
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            break;
+                        case '-':
+                            Console.ForegroundColor = ConsoleColor.White;
+                            break;
+                        case 'W':
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            break;
+                        case 'S':
+                            Console.ForegroundColor = ConsoleColor.Blue;
+                            break;
+                    }
                     Console.Write(map[x, y]);
+                    Console.ResetColor();
                 }
                 Console.WriteLine();
             }
@@ -78,32 +94,17 @@ namespace WolfAndSheep
                 }
             }
         }
-        static void IsSheepEated(ref Sheep[] sheep, Wolf wolf)
+        static void IsSheepEated(ref List <Sheep> sheep, Wolf wolf)
         {
-            for (int i = 0; i < sheep.Length; i++)
+            for (int i = 0; i < sheep.Count; i++)
             {
                 if (sheep[i].XS == wolf.XW && sheep[i].YS == wolf.YW)
                 {
-                    CutArray(ref sheep, i);
+                    sheep.RemoveAt(i);
                 }
 
             }
 
-        }
-        static void CutArray(ref Sheep[] myArray, int index)
-        {
-            Sheep [] newArray = new Sheep [myArray.Length - 1];
-
-            for (int i = 0; i < index; i++)
-            {
-                newArray[i] = myArray[i];
-            }
-            for (int i = index + 1; i < myArray.Length; i++)
-            {
-                newArray[i - 1] = myArray[i];
-            }
-            myArray = newArray;
-
-        }
+        } 
     }
 }
